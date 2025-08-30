@@ -10,8 +10,10 @@ A Python web scraper that extracts detailed laptop information from Digikala.com
 2. Download the `Digikala_WebScrapy.rar` file
 3. Extract it into the main project folder
 4. The extracted folder should contain:
+   - `Digikala_WebScrapy.py` (main project module)
    - `chromedriver.exe` (required for the scraper to work)
    - `asus-vivobook.csv` (example of collected data)
+
 ## 🚀 Features
 
 Extracts a comprehensive dataset for each laptop product, including:
