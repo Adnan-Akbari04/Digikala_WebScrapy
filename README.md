@@ -1,7 +1,17 @@
 # Digikala Laptop Data Scraper
 
-A robust Python web scraper built with Selenium to extract detailed product information for laptops from Digikala.com, Iran's leading e-commerce platform.
+A Python web scraper that extracts detailed laptop information from Digikala.com using Selenium. This tool gathers product data including names, prices, discounts, ratings, images, and technical specifications.
 
+## 📦 Required Files Download
+
+**Before running the script, you must download additional resources:**
+
+1. Go to the repository's main page
+2. Download the `Digikala_WebScrapy.rar` file
+3. Extract it into the main project folder
+4. The extracted folder should contain:
+   - `chromedriver.exe` (required for the scraper to work)
+   - `asus-vivobook.csv` (example of collected data)
 ## 🚀 Features
 
 Extracts a comprehensive dataset for each laptop product, including:
@@ -36,9 +46,10 @@ The scraped data is automatically cleaned and saved into a structured `.csv` fil
     *The `requirements.txt` file includes: `selenium`, `pandas`*
 
 4.  **WebDriver Setup:**
-    This project uses Selenium with Chrome. You must have Chrome installed.
-    -   **Option A (Automatic):** The script uses `webdriver-manager` to automatically download and manage the correct ChromeDriver version. This is the simplest method.
-    -   **Option B (Manual):** Download the ChromeDriver that matches your Chrome browser version from [https://chromedriver.chromium.org/](https://chromedriver.chromium.org/) and place it in your system PATH.
+    - The project uses the ChromeDriver provided in the `resources.rar` file
+    - Ensure you have Google Chrome installed
+    - Keep the `chromedriver.exe` file in the main project folder
+
 
 ## 📖 Usage
 
@@ -62,4 +73,5 @@ The scraped data is automatically cleaned and saved into a structured `.csv` fil
 -   **Dependencies:** Ensure all libraries are installed to avoid `ModuleNotFoundError`.
 -   **Network Stability:** A slow or unstable connection may cause timeouts. The script includes basic error handling for common issues, but may not cover all edge cases.
 
-## 📁 Project Structure
+For questions or issues, please check that you've downloaded and extracted the required `Digikala_WebScrapy.rar` file first.
+
