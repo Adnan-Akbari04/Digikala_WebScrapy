@@ -61,13 +61,6 @@ Data is saved in structured CSV format for easy analysis.
    - The script creates a timestamped CSV file with all collected data
    - Progress is displayed in the console during scraping
 
-## ⚠️ Important Notes
-
-- **Required Files:** The scraper requires the files from the `Digikala_WebScrapy.rar` file, especially the main module `Digikala_WebScrapy.py`
-- **Website Changes:** Digikala may update their layout, which could break the scraper
-- **Scraping Ethics:** The script includes delays to avoid overwhelming Digikala's servers
-- **Network Connection:** A stable internet connection is required for successful scraping
-- **Browser Compatibility:** Ensure your Chrome version is compatible with the provided ChromeDriver
 ## 📄 Sample Output
 
 The `asus-vivobook.csv` file shows the data structure collected by the scraper, including:
@@ -76,6 +69,14 @@ The `asus-vivobook.csv` file shows the data structure collected by the scraper, 
 - Customer ratings
 - Technical specifications
 - Image links
+
+## ⚠️ Important Notes
+
+- **Required Files:** The scraper requires the files from the `Digikala_WebScrapy.rar` file, especially the main module `Digikala_WebScrapy.py`
+- **Website Changes:** Digikala may update their layout, which could break the scraper
+- **Scraping Ethics:** The script includes delays to avoid overwhelming Digikala's servers
+- **Network Connection:** A stable internet connection is required for successful scraping
+- **Browser Compatibility:** Ensure your Chrome version is compatible with the provided ChromeDriver
 
 ## ❓ Troubleshooting & Support
 
