@@ -108,4 +108,5 @@ Please feel free to reach out to me at **adnanakbari@outlook.com**. I'm always i
 You can also view my other projects on my [GitHub profile](https://github.com/Adnan-Akbari04).
 
 
+
 For questions or issues, please check that you've downloaded and extracted the required `Digikala_WebScrapy.rar` file first and that the `Digikala_WebScrapy.py` module is present in your project folder.
