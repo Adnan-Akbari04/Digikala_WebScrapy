@@ -75,7 +75,7 @@ Web scraping projects are inherently fragile as they depend on the website's str
 
 1. **First,** ensure you have:
    - Downloaded and extracted the complete `Digikala_WebScrapy.rar` file
-   - Installed all required dependencies (`selenium`, `pandas`)
+   - Installed all required dependencies (`selenium`, `pandas`, `numpy`, `requests`)
    - A stable internet connection
    - The latest version of Google Chrome browser
 
