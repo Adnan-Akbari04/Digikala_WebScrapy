@@ -68,6 +68,14 @@ Data is saved in structured CSV format for easy analysis.
 - **Scraping Ethics:** The script includes delays to avoid overwhelming Digikala's servers
 - **Network Connection:** A stable internet connection is required for successful scraping
 - **Browser Compatibility:** Ensure your Chrome version is compatible with the provided ChromeDriver
+## 📄 Sample Output
+
+The `asus-vivobook.csv` file shows the data structure collected by the scraper, including:
+- Product names and prices
+- Discount percentages
+- Customer ratings
+- Technical specifications
+- Image links
 
 ## ❓ Troubleshooting & Support
 
@@ -99,13 +107,5 @@ Please feel free to reach out to me at **adnanakbari@outlook.com**. I'm always i
 
 You can also view my other projects on my [GitHub profile](https://github.com/Adnan-Akbari04).
 
-## 📄 Sample Output
-
-The `asus-vivobook.csv` file shows the data structure collected by the scraper, including:
-- Product names and prices
-- Discount percentages
-- Customer ratings
-- Technical specifications
-- Image links
 
 For questions or issues, please check that you've downloaded and extracted the required `Digikala_WebScrapy.rar` file first and that the `Digikala_WebScrapy.py` module is present in your project folder.
